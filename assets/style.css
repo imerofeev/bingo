@@ -16,7 +16,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #191919;
+  background: rgb(42, 50, 63);
   z-index: 100;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@ body {
 
 #welcome p {
   font-family: "Roboto", sans-serif;
-  font-size: 20vmin;
+  font-size: 15vmin;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
@@ -50,13 +50,13 @@ body {
 #welcome .button {
   font-size: 4vmin;
   display: inline-block;
-  border: 1px solid #fff;
-  padding: 3vmin 5vmin;
-  margin: 1vmin 0;
-  background: rgba(255, 255, 255, 0);
+  border: 2px #00a1f5 solid;
+  padding: 2vmin 5vmin;
+  margin: 3vmin 0;
+  background: rgb(0, 161, 245);
   transition: background linear 0.2s;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 
 #welcome .button:focus {
@@ -64,7 +64,7 @@ body {
 }
 
 #welcome .button:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 161, 245, 0.3);
 }
 
 #cells {
@@ -150,7 +150,7 @@ body {
 }
 
 .cell.selected .content {
-  background: #42affa;
+  background: rgb(0, 161, 245);
 }
 
 .cell.selected .content .text {
@@ -185,7 +185,10 @@ body {
 
 #bingo #retry {
   font-size: 10vmin;
+  margin: 3vmin 0;
   cursor: pointer;
   font-family: "Roboto", "Arial", sans-serif;
+  text-decoration: underline;
   text-shadow: none;
+
 }
