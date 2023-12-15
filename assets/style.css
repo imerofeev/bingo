@@ -80,8 +80,8 @@ body {
   font-size: 20px;
 }
 
-#cells.items-9 .cell {
-  width: calc(100% / 3);
+#cells.items-12 .cell {
+  width: calc(100% / 4);
   height: calc(100% / 3);
 }
 
@@ -146,7 +146,19 @@ body {
 }
 
 .cell.selected:nth-child(8) {
+  transform: scale(0.9) rotate(-1deg);
+}
+
+.cell.selected:nth-child(9) {
   transform: scale(0.9) rotate(2deg);
+}
+
+.cell.selected:nth-child(10) {
+  transform: scale(0.9) rotate(1deg);
+}
+
+.cell.selected:nth-child(11) {
+  transform: scale(0.9) rotate(-2deg);
 }
 
 .cell.selected .content {
